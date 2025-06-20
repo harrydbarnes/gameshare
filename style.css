@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0070d1; /* PlayStation blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#player-input {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#player-input div {
+    margin-bottom: 10px;
+}
+
+#player-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#player-input input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#generate-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0070d1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#generate-btn:hover, #share-btn:hover {
+    background-color: #005ea8;
+}
+
+/* Style for the Share Button to match Generate Button */
+#share-btn {
+    display: block; /* Will be controlled by JS, but set default */
+    width: 100%;
+    padding: 10px;
+    background-color: #0070d1; /* PlayStation blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* margin-top is already set inline in HTML, but can be standardized here if preferred */
+}
+
+main#instructions-container {
+    padding: 0 20px 20px 20px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0070d1;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.player1-name, .player2-name {
+    font-weight: bold;
+    color: #0070d1;
+}
